@@ -16,4 +16,4 @@ print join "", map {
 	$bloomFilter->exists($_)
 		? "$_ exists in filter\n"
 		: "$_ does not exist in filter\n"
-} @evens;
+} 0..20;
